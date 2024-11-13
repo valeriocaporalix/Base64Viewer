@@ -5,15 +5,15 @@ This project is a static web page built with HTML and vanilla JavaScript. It all
 ## Features
 
 - **Base64 to Image Conversion**: Users can input a Base64 string, which is then decoded and displayed as an image.
-- **File Size Calculation**: The size of the image (in bytes) is calculated and displayed alongside the image.
-- **History List**: A history feature that maintains a record of all previously processed images, including their Base64 strings and calculated sizes.
+- **File Size Calculation**: The size of the image (in Kilo-bytes) is calculated and displayed alongside the image history.
+- **History List**: A history feature that maintains a record of all previously processed images, including their Base64 strings and calculated sizes, you can retrieve it via click.
 - **Simple and Lightweight**: The solution uses only vanilla JavaScript and HTML, with no external dependencies, making it fast and easy to use.
 
 ## How It Works
 
 1. **Input**: The user enters a Base64-encoded string into the provided input field.
 2. **Decoding**: The JavaScript decodes the Base64 string into an image format.
-3. **Display**: The image is shown on the page, and its size is calculated and displayed in bytes.
+3. **Display**: The image is shown on the page, and its size is calculated and displayed in Kilo-bytes into history.
 4. **History**: Every conversion is added to the history list, allowing users to track their previous conversions and images.
 
 ## Usage
@@ -22,7 +22,7 @@ This project is a static web page built with HTML and vanilla JavaScript. It all
 2. Open the `index.html` file in a web browser.
 3. Paste a Base64 string into the input field.
 4. Click the "Convert" button to decode the Base64 string and display the image.
-5. The image size (in bytes) will be shown, and the image will be added to the history list.
+5. The image will be added to the history list and the size (in Kilo-bytes) will be shown there.
 
 ## Requirements
 
